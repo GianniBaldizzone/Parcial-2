@@ -37,10 +37,10 @@ public class Square extends Rectangle{
     @Override
     public String toString() {
         return "Square{" +
-                "Shape´{"+
-                "color='" + getColor() +
+                " Shape {"+
+                "color=" + getColor() +
                 ", filled=" + isFilled() +
-                "}"+
+                "} "+
                 "side="+
                 getSide()+
                 "}";

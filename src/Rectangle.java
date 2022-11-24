@@ -45,10 +45,10 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle{" + "Shape{"
-                + "color='" + getColor() +
+        return "Rectangle{" + " Shape {"
+                + "color=" + getColor() +
                 ", filled=" + isFilled() +
-                "}" +
+                "} " +
                 "width=" + getWidth() + '/' +
                 "length=" + getLenght() +
                 '}';

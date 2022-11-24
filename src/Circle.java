@@ -29,10 +29,10 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle{" + "Shape{"
-                +"color='" + getColor() +
+        return "Circle{" + " Shape {"
+                +"color=" + getColor() +
                 ", filled=" + isFilled() +
-                "}"+
+                "} "+
                 "radius=" + radius +
                 '}';
     }
