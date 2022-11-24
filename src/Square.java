@@ -23,11 +23,19 @@ public class Square extends Rectangle{
     public void setLenght(double side) {
         this.setLenght(side);
     }
+    public double getArea() {
+        return getSide()*getSide();
+    }
+    public double getPerimeter() {
+        return getSide()*4;
+    }
 
     @Override
     public String toString() {
         return "Square{" +
                 "Shape´{"+
+                "color='" + getColor() + '/' +
+                ", filled=" + isFilled() +
                 "}"+
                 getSide()+
                 "}";
