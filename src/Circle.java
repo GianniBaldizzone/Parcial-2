@@ -21,7 +21,7 @@ public class Circle extends Shape{
         this.radius = radius;
     }
     public double getArea() {
-       return (getRadius()*getRadius())* 2 * 3.14;
+       return (getRadius()*getRadius()) * 3.14;
     }
     public double getPerimeter() {
         return getRadius()* 2 * 3.14;
