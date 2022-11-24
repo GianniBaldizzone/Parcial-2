@@ -13,6 +13,12 @@ public class Main {
         s2.setColor("red");
         s2.setFilled(false);
         s2.setRadius(5.5);
-        System.O
+        System.out.println("");
+        System.out.println("Circulo creado con getters y setters");
+        System.out.println(s2.getColor());
+        System.out.println(s2.isFilled());
+        System.out.println(s2.getRadius());
+        System.out.println(s2.getArea());
+        System.out.println(s2.getPerimeter());
     }
 }
