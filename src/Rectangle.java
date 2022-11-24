@@ -1,6 +1,6 @@
 public class Rectangle extends Shape {
-    private double width;
-    private double lenght;
+    public double width;
+    public double lenght;
 
     public Rectangle() {
         this.width = 1;
@@ -21,6 +21,7 @@ public class Rectangle extends Shape {
     public double getWidth() {
         return width;
     }
+
 
     public void setWidth(double width) {
         this.width = width;
