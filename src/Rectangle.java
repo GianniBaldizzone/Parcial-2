@@ -1,15 +1,17 @@
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double width;
     private double lenght;
 
-    public Rectangle( double width, double lenght) {
+    public Rectangle() {
         this.width = 1;
         this.lenght = 1;
     }
-    public Rectangle( double width, double lenght) {
+
+    public Rectangle(double width, double lenght) {
         this.width = width;
         this.lenght = lenght;
     }
+
     public Rectangle(String color, boolean filled, double width, double lenght) {
         super(color, filled);
         this.width = width;
@@ -31,19 +33,23 @@ public class Rectangle extends Shape{
     public void setLenght(double lenght) {
         this.lenght = lenght;
     }
+
     public double getArea() {
         return width;
     }
+
     public double getPerimeter() {
         return lenght;
     }
+
     @Override
     public String toString() {
         return "Rectangle{" + "Shape{"
-                +"color='" + getColor() + '/' +
+                + "color='" + getColor() + '/' +
                 ", filled=" + isFilled() +
-                "}"+
-                "width="+getWidth()+
-                "length="+getLenght()+
+                "}" +
+                "width=" + getWidth() +
+                "length=" + getLenght() +
                 '}';
+    }
 }
